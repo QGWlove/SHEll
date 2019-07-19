@@ -22,7 +22,7 @@ send "qgw123..\r"
 expect eof
 EOF
 
-c d/opt
+cd /opt
 tar -xf mysql-5.7.17.tar
 echo "正在安装MySQL服务"
 yum -y install mysql-community-* &> /dev/null
